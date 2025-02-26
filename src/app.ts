@@ -8,9 +8,10 @@ app.get('/', (req, res) => {
 });
 
 app.get('/corinthians', (req, res) => {
-  let mundiais = 1;
+  let mundiais = 1; // Enumera o real número de mundiais do Corinthians
   res.json({
-    team: 'Corinthians',
+    fundacao: '01/09/1910',
+    team: 'Corinthians Paulista',
     mundiais
   });
 });
