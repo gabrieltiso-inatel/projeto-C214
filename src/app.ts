@@ -8,10 +8,13 @@ app.get('/', (req, res) => {
 });
 
 app.get('/corinthians', (req, res) => {
-  let mundiais = 1;
+  let mundiais = 2;
+  let mundiais_verdadeiros_mengao = 0;
+  let copa_toyota = 1;
   res.json({
     team: 'Corinthians',
-    mundiais
+    name: 'Gabriel',
+    status: 'supporter'
   });
 });
 
