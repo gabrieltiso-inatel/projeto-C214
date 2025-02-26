@@ -8,10 +8,10 @@ app.get('/', (req, res) => {
 });
 
 app.get('/corinthians', (req, res) => {
-  let mundiais = 2;
+  let mundiais = 1;
   res.json({
-    name: 'Gabriel',
-    team: 'Corinthians'
+    team: 'Corinthians',
+    mundiais
   });
 });
 
