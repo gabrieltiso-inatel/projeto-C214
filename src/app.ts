@@ -7,6 +7,13 @@ app.get('/', (req, res) => {
   res.send('Hello Gabriel!');
 });
 
+app.get('/corinthians', (req, res) => {
+  res.json({
+    name: 'Gabriel',
+    team: 'Corinthians'
+  });
+});
+
 app.listen(port, () => {
   return console.log(`Express is listening at http://localhost:${port}`);
 });
